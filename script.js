@@ -6,30 +6,30 @@ function drawGrafico1 () {
 
   option = {
     title: {
-      text: 'Basic Radar Chart'
+      text: '3°A'
     },
     legend: {
-      data: ['Allocated Budget', 'Actual Spending']
+      data: ['Física', 'Actual Spending']
     },
     radar: {
       // shape: 'circle',
       indicator: [
-        { name: 'Sales', max: 6500 },
-        { name: 'Administration', max: 16000 },
-        { name: 'Information Technology', max: 30000 },
-        { name: 'Customer Support', max: 38000 },
-        { name: 'Development', max: 52000 },
-        { name: 'Marketing', max: 25000 }
+        { name: 'Termoquímica', max: 6500 },
+        { name: 'Óptica', max: 16000 },
+        { name: 'Termologia', max: 30000 },
+        { name: 'Ondulatória', max: 38000 },
+        { name: 'Cinemática', max: 52000 },
+        { name: 'Eletrodinâmica', max: 25000 }
       ]
     },
     series: [
       {
-        name: 'Budget vs spending',
+        name: 'Física vs spending',
         type: 'radar',
         data: [
           {
             value: [4200, 3000, 20000, 35000, 50000, 18000],
-            name: 'Allocated Budget'
+            name: 'Física'
           }
         ]
       }
@@ -49,30 +49,30 @@ function drawGrafico2 () {
 
   option = {
     title: {
-      text: 'Basic Radar Chart'
+      text: '3°B'
     },
     legend: {
-      data: ['Allocated Budget', 'Actual Spending']
+      data: ['Física', 'Actual Spending']
     },
     radar: {
       // shape: 'circle',
       indicator: [
-        { name: 'Sales', max: 6500 },
-        { name: 'Administration', max: 16000 },
-        { name: 'Information Technology', max: 30000 },
-        { name: 'Customer Support', max: 38000 },
-        { name: 'Development', max: 52000 },
-        { name: 'Marketing', max: 25000 }
+        { name: 'Termoquímica', max: 6500 },
+        { name: 'Óptica', max: 16000 },
+        { name: 'Termologia', max: 30000 },
+        { name: 'Ondulatória', max: 38000 },
+        { name: 'Cinemática', max: 52000 },
+        { name: 'Eletrodinâmica', max: 25000 }
       ]
     },
     series: [
       {
-        name: 'Budget vs spending',
+        name: 'Física vs spending',
         type: 'radar',
         data: [
           {
             value: [4200, 3000, 20000, 35000, 50000, 18000],
-            name: 'Allocated Budget'
+            name: 'Física'
           }
         ]
       }
@@ -92,30 +92,30 @@ function drawGrafico3 () {
 
   option = {
     title: {
-      text: 'Basic Radar Chart'
+      text: 'TADS'
     },
     legend: {
-      data: ['Allocated Budget', 'Actual Spending']
+      data: ['Física', 'Actual Spending']
     },
     radar: {
       // shape: 'circle',
       indicator: [
-        { name: 'Sales', max: 6500 },
-        { name: 'Administration', max: 16000 },
-        { name: 'Information Technology', max: 30000 },
-        { name: 'Customer Support', max: 38000 },
-        { name: 'Development', max: 52000 },
-        { name: 'Marketing', max: 25000 }
+        { name: 'Termoquímica', max: 6500 },
+        { name: 'Óptica', max: 16000 },
+        { name: 'Termologia', max: 30000 },
+        { name: 'Ondulatória', max: 38000 },
+        { name: 'Cinemática', max: 52000 },
+        { name: 'Eletrodinâmica', max: 25000 }
       ]
     },
     series: [
       {
-        name: 'Budget vs spending',
+        name: 'Física vs spending',
         type: 'radar',
         data: [
           {
             value: [4200, 3000, 20000, 35000, 50000, 18000],
-            name: 'Allocated Budget'
+            name: 'Física'
           }
         ]
       }

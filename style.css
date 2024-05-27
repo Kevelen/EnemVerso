@@ -26,16 +26,16 @@ body {
 header {
 
     display: inherit;
-    background-color: rgba(255, 228, 196, 0.4);
-    border: 2px solid rgb(255, 228, 196);
+    background-color: rgb(18, 248, 209, 0.4);
+    border: 2px solid rgb(85, 173, 195);
 
 }
 
 #ads {
 
     display: inherit;
-    background-color: rgba(244, 165, 96, 0.3);
-    border: 2px solid rgb(244, 165, 96);
+    background-color: rgb(220, 244, 98, 0.3);
+    border: 2px solid rgb(181, 217, 54);
 
 }
 
@@ -44,8 +44,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 36, 36, 0.45);
-    border: 2px solid rgb(235, 36, 36);
+    background-color: rgb(242, 54, 54, 0.45);
+    border: 2px solid rgb(183, 31, 31);
     text-align: start;
 
 }
@@ -89,8 +89,8 @@ article {
 footer {
 
     display: inherit;
-    background-color: rgba(216, 191, 216, 0.3);
-    border: 2px solid rgb(216, 191, 216);
+    background-color: rgb(57, 249, 159, 0.3);
+    border: 2px solid rgb(84, 160, 97);
 
 }
 
